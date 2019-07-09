@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="NICHandsOn.View.HomePage">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="Start" BackgroundColor="Indigo">
+            <Label Text="Entry Form" HorizontalOptions="CenterAndExpand" TextColor="White" FontSize="Large"/>
+            </StackLayout>
+            <Frame Margin="1" Padding="1" CornerRadius="4" VerticalOptions="CenterAndExpand" OutlineColor="Indigo">
+                <StackLayout HorizontalOptions="FillAndExpand" Orientation="Vertical" VerticalOptions="CenterAndExpand">
+               
+                <Label Text="EmpID"/>
+                <Entry x:Name="EntryId" HorizontalOptions="FillAndExpand"/>
+                <Label Text="Name"/>
+                <Entry x:Name="EntryName" HorizontalOptions="FillAndExpand"/>
+                <Label Text="Department"/>
+                <Entry x:Name="EntryDepart" HorizontalOptions="FillAndExpand"/>
+               
+            </StackLayout>
+            </Frame>
+            <StackLayout Orientation="Vertical" VerticalOptions="End">
+                <Button Text="Submit" Clicked="Submit_Clicked" BackgroundColor="Indigo" HorizontalOptions="FillAndExpand" TextColor="White" FontSize="Medium"/>
+
+            </StackLayout>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

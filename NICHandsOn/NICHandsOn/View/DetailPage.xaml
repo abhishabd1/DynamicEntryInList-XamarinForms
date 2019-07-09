@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="NICHandsOn.View.DetailPage">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="Start" BackgroundColor="Indigo">
+                <Label Text="Detail Page" HorizontalOptions="CenterAndExpand" TextColor="White" FontSize="Large"/>
+            </StackLayout>
+            <Frame Margin="1" Padding="1" CornerRadius="4" VerticalOptions="Start" OutlineColor="Indigo">
+                <StackLayout HorizontalOptions="FillAndExpand" Orientation="Vertical" VerticalOptions="CenterAndExpand">
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="EmpID : "/>
+                        <Label x:Name="lblemid"/>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Name : "/>
+                        <Label x:Name="lblname"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Department : "/>
+                        <Label x:Name="lbldepart"/>
+                    </StackLayout>
+
+
+                </StackLayout>
+            </Frame>
+
+            <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="Start">
+                <ListView x:Name="ExpeseList" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <Label Text="{Binding TextValue}" />
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="Start" BackgroundColor="Indigo">
+                <Button x:Name="btnBack" TextColor="White" BackgroundColor="Indigo" HorizontalOptions="FillAndExpand" Clicked="BtnBack_Clicked" Text="Back"/>
+                
+                <Button x:Name="btnHome" TextColor="White" BackgroundColor="Indigo" HorizontalOptions="FillAndExpand" Clicked="BtnHome_Clicked" Text="Home"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

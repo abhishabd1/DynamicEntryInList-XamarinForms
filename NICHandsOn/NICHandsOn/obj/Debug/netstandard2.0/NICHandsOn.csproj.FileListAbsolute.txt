@@ -1,0 +1,17 @@
+D:\PracticePro\NICHandsOn\NICHandsOn\NICHandsOn\bin\Debug\netstandard2.0\NICHandsOn.deps.json
+D:\PracticePro\NICHandsOn\NICHandsOn\NICHandsOn\bin\Debug\netstandard2.0\NICHandsOn.dll
+D:\PracticePro\NICHandsOn\NICHandsOn\NICHandsOn\bin\Debug\netstandard2.0\ref\NICHandsOn.dll
+D:\PracticePro\NICHandsOn\NICHandsOn\NICHandsOn\bin\Debug\netstandard2.0\NICHandsOn.pdb
+D:\PracticePro\NICHandsOn\NICHandsOn\NICHandsOn\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\PracticePro\NICHandsOn\NICHandsOn\NICHandsOn\obj\Debug\netstandard2.0\NICHandsOn.csproj.CoreCompileInputs.cache
+D:\PracticePro\NICHandsOn\NICHandsOn\NICHandsOn\obj\Debug\netstandard2.0\NICHandsOn.AssemblyInfoInputs.cache
+D:\PracticePro\NICHandsOn\NICHandsOn\NICHandsOn\obj\Debug\netstandard2.0\NICHandsOn.AssemblyInfo.cs
+D:\PracticePro\NICHandsOn\NICHandsOn\NICHandsOn\obj\Debug\netstandard2.0\NICHandsOn.dll
+D:\PracticePro\NICHandsOn\NICHandsOn\NICHandsOn\obj\Debug\netstandard2.0\ref\NICHandsOn.dll
+D:\PracticePro\NICHandsOn\NICHandsOn\NICHandsOn\obj\Debug\netstandard2.0\NICHandsOn.pdb
+D:\PracticePro\NICHandsOn\NICHandsOn\NICHandsOn\obj\Debug\netstandard2.0\View\HomePage.xaml.g.cs
+D:\PracticePro\NICHandsOn\NICHandsOn\NICHandsOn\obj\Debug\netstandard2.0\View\ExpensePage.xaml.g.cs
+D:\PracticePro\NICHandsOn\NICHandsOn\NICHandsOn\obj\Debug\netstandard2.0\NICHandsOn.csprojAssemblyReference.cache
+D:\PracticePro\NICHandsOn\NICHandsOn\NICHandsOn\obj\Debug\netstandard2.0\View\DetailPage.xaml.g.cs
+D:\PracticePro\NICHandsOn\NICHandsOn\NICHandsOn\obj\Debug\netstandard2.0\XamlC.stamp
+D:\PracticePro\NICHandsOn\NICHandsOn\NICHandsOn\obj\Debug\netstandard2.0\View\Page1.xaml.g.cs
